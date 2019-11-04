@@ -337,7 +337,7 @@
 
 
 
-##### 2.2.13 表单标签（重点）
+##### 2.2.13 表单标签（重点）`<form>`
 
 > - `action 属性` : 定义在提交表单时执行的动作。向服务器提交表单的通常做法是使用提交按钮。
 >   - 通常，表单会被提交到`web` 服务器上的网页。
@@ -391,7 +391,7 @@
 >      
 >      <--!-->重置按钮  提交按钮</--!-->    
 >      <input type="reset" name="reset">
->      <input type="submit" name="submit" >
+>      <input type="submit" name="submit" value="注册">
 >      <input type="button" name="button1" title="按钮">
 >     </form>
 > </body>
