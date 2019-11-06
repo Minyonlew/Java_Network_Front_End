@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片墙</title>
+    <style>
+        /*设置body的样式*/
+        body{
+            /*将图片居中，且将背景颜色设置为灰色*/
+            text-align: center;
+            background-color: pink;
+        }
+        /*设置图片样式*/
+        img{
+            /*图片大小*/
+            width: 12%;
+            /*图片的边框大小*/
+            border: solid 5px;
+            border-color:plum ;
+            /*图片内边距*/
+            padding: 15px;
+            background-color: antiquewhite;
+            /*图片间隔*/
+            margin: 10px;
+        }
+        /*使用伪类给标签添加样式*/
+        img:hover{
+            /*设置图片旋转角度和大小变化*/
+            transform: rotate(-10deg) scale(1.2);
+            /*设置显示优先级别*/
+            z-index: 1;
+            /*设置显示加载时间*/
+            transition:1.0s;
+
+        }
+
+
+    </style>
+    
+    
+</head>
+<body>
+    <br/>
+    <br/>
+    <br/>
+    <img src="imgs/01.jpg" alt=""/>
+    <img src="imgs/02.jpg" alt=""/>
+    <img src="imgs/03.jpg" alt=""/><br/>
+    <img src="imgs/04.jpg" alt=""/>
+    <img src="imgs/05.jpg" alt=""/>
+    <img src="imgs/06.jpg" alt=""/><br/>
+    <img src="imgs/07.jpg" alt=""/>
+    <img src="imgs/08.jpg" alt=""/>
+    <img src="imgs/09.jpg" alt=""/>
+
+</body>
+</html>
